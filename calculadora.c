@@ -12,38 +12,6 @@ int main () {
     scanf("%d", &z);
     printf("digite o segundo numero\n");
     scanf("%d", &y);
-    /*
-    switch (z) {
-        case 1:
-            resultado = x + y;
-            printf("%d", resultado);
-            break;
-        case 2: 
-            resultado = x - y;
-            printf("%d", resultado);
-            break;
-        case 3:
-            resultado = x * y;
-            printf("%d", resultado);
-            break;
-        case 4:
-            if (x == 0, y == 0) {
-                printf("nao e possivel dividir por 0");
-            } else {
-                resultado = x / y;
-                printf("%d", resultado);
-            }
-            break;
-        case 5:
-            if (x == 0, y == 0) {
-                printf("nao e possivel dividir por 0");
-            } else {
-                resultado = x % y;
-                printf("%d", resultado);
-            }
-            break;
-    }
-    */
     ///*
     if (z == 1) {
         resultado = x + y;
