@@ -43,4 +43,3 @@ int main () {
     }
     //*/
 }
-//C:\Users\ihrie.DESKTOP-6H9V37N\Desktop\projetinhos
