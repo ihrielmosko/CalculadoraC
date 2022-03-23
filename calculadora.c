@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 int main () {
     int x;
@@ -15,22 +16,27 @@ int main () {
     ///*
     if (z == 1) {
         resultado = x + y;
+        floor(resultado);
         printf("%f", resultado);
     } else if (z == 2) {
         resultado = x - y;
+        floor(resultado);
         printf("%f", resultado);
     } else if (z == 3) {
         resultado = x * y;
+        floor(resultado);
         printf("%f", resultado);
     } else if (z == 4) {
         if (x == 0, y == 0) {
             printf("nao e possivel dividir por 0");
         } else {
             resultado = x / y;
+            floor(resultado);
             printf("%f", resultado);
         }
     } else if (z == 5) {
         resultado = x % y;
+        floor(resultado);
         printf("%f", resultado);
     } else {
         printf("este nao e um operador valido");
