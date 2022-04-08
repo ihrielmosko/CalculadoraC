@@ -5,8 +5,11 @@ int main () {
     int x, x2, y, z, i;
     float resultado;
 
+<<<<<<< HEAD
     system("cls");
 
+=======
+>>>>>>> 6843993b96d95f4be126283f759577d273bb9bc5
     printf("digite um numero inteiro\n");
     scanf("%d", &x);
     printf("escolha o operador digitando o respectivo numero\n0(soma) 1(subtracao) 2(multiplicacao) 3(divisao) 4(resto) 5(potencia)\n");
@@ -69,4 +72,8 @@ int main () {
     }
     //*/
     return 0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6843993b96d95f4be126283f759577d273bb9bc5
