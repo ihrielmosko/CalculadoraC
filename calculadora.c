@@ -43,7 +43,9 @@ int main () {
 
         while (y != 1) {
             if (y < 0){
-                printf("expoente negativo indisponivel");
+                x2 = x2 / x;
+                y++;
+                resultado = x2;
                 break;
             } else if (y == 0) {
                 printf("1");
