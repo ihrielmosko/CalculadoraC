@@ -53,13 +53,8 @@ int main () {
                 y--;
                 resultado = x2;
             }
-            if (y = 1) {
-                if (x < 0) {
-                    resultado = resultado/-1;
-                    printf("%f\n", resultado);
-                } else {
-                    printf("%f\n", resultado);
-                }
+            if (y == 1) {
+                printf("%f\n", resultado);
             } else {}
         }
     } else {
