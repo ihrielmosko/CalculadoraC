@@ -1,0 +1,6 @@
+# Não comitar executaveis
+*.exe
+*.out
+
+# Não comitar configuração do editor
+.vscode

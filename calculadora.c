@@ -5,11 +5,6 @@ int main () {
     int x, x2, y, z, i;
     float resultado;
 
-<<<<<<< HEAD
-    system("cls");
-
-=======
->>>>>>> 6843993b96d95f4be126283f759577d273bb9bc5
     printf("digite um numero inteiro\n");
     scanf("%d", &x);
     printf("escolha o operador digitando o respectivo numero\n0(soma) 1(subtracao) 2(multiplicacao) 3(divisao) 4(resto) 5(potencia)\n");
@@ -48,7 +43,9 @@ int main () {
 
         while (y != 1) {
             if (y < 0){
-                printf("expoente negativo indisponivel");
+                x2 = x2 / x;
+                y++;
+                resultado = x2;
                 break;
             } else if (y == 0) {
                 printf("1");
@@ -58,13 +55,8 @@ int main () {
                 y--;
                 resultado = x2;
             }
-            if (y = 1) {
-                if (x < 0) {
-                    resultado = resultado/-1;
-                    printf("%f\n", resultado);
-                } else {
-                    printf("%f\n", resultado);
-                }
+            if (y == 1) {
+                printf("%f\n", resultado);
             } else {}
         }
     } else {
@@ -72,8 +64,4 @@ int main () {
     }
     //*/
     return 0;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 6843993b96d95f4be126283f759577d273bb9bc5
